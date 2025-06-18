@@ -13,9 +13,9 @@ Bootstrap – za responzivni i prilagodljivi dizajn
 ## 🗂️ Baza podataka
 Projekt koristi MySQL bazu koja sadrži dvije glavne tablice:
 
-korisnici – podaci o registriranim korisnicima (ime, e-mail, lozinka itd.)
+korisnici – podaci o registriranim korisnicima (ime, lozinka)
 
-vijesti – vijesti vezane uz Formulu 1 koje unose prijavljeni korisnici
+vijesti – vijesti vezane uz Formulu 1 (vozač ili bolid) koje unose prijavljeni korisnici
 
 Upravljanje bazom obavljeno je putem phpMyAdmin-a.
 

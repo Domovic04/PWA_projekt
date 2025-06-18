@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+}
+
+.navigacija a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navigacija a:hover{
+    text-decoration: underline crimson 2px;
+}
+
+a.activ{
+    text-decoration: underline 2px;
+}
+
+.razmak{
+    padding-top: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.naslov{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:crimson;
+    font-size: 60px;
+}
+
+span{
+    color: black;
+}
+
+.naslov1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size: 60px;
+    text-decoration: underline crimson;
+}
+
+.naslov2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kategorija{
+    text-decoration: underline goldenrod;
+}
+
+
+.vozac_naslov{
+    font-size: 40px;
+    text-decoration: underline goldenrod;
+}
+
+.mini_naslov{
+    text-decoration: underline goldenrod;
+}
+
+.slika{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+article{
+    padding: 0 5px 20px 5px;
+}
+
+.sijena{
+    transition: 0.5s ease;
+}
+
+.sijena:hover{
+    border-color: #444444;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(144, 144, 145, 0.4);
+    transform: scale(1.05);
+}
+
+.linija{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0;
+}
+
+.mini-naslov{
+    color: rgb(123, 124, 124);
+    font-size: 14px;
+}
+
+section{
+    padding: 30px 0;
+}
+
+
+.forma{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-submit {
+    background-color: #d40000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #a80000;
+}
+.podnozje{
+    background-color: rgb(201, 201, 201);
+}
+
+.podnozje h1{
+    color: rgb(0, 0, 0);
+
+}
+
+.podnozje span{
+    color:crimson;
+}
+
+a .prijava{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.prijava a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
